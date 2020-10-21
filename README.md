@@ -1,4 +1,5 @@
 # Cloudflare反代脚本
+````bash
 addEventListener(
 "fetch",event => {
 let url=new URL(event.request.url);
